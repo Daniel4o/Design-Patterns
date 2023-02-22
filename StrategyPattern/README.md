@@ -9,6 +9,9 @@ Basically instead of an Interface in a traditional way we use instance variable 
 
 <br>It also allows to **change** the **capabilities** of objects **at runtime**. So if we create an object of type Animal and starts off as a non flying objects we can change it’s behavior to fly dynamically. </br>
 
+<h3>UML Diagram</h3>
+![img.png](img.png)
+
 We are encapsulating the concept or the behavior that varies (***decoupling***).
 <h2>When to use Strategy Design Pattern</h2>
 <ul>
