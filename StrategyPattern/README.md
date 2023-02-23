@@ -1,4 +1,4 @@
-<h1>Strategy Design Pattern</h1>
+﻿<h1>Strategy Design Pattern</h1>
 Strategy design pattern defines a family of algorithms, encapsulates each one and makes them interchangeable and thus strategy lets the algorithm vary indepedently from the clients that use it.
 <h2>Example</h2>
 Let’s say we have an Animal class with a method fly(). For example Dog class extends the superclass and we can override the fly() method to do nothing.  The problem is if we have many subclasses that don’t use that method it will make maintenance difficult.
@@ -8,11 +8,12 @@ Let’s say we have an Animal class with a method fly(). For example Dog class e
 Basically instead of an Interface in a traditional way we use instance variable that is a subclass of the Flyes Interface. And the Animal doesn’t care what flying type does it just knows the behavior that is available to all of its subclasses (***composition***).
 
 <br>It also allows to **change** the **capabilities** of objects **at runtime**. So if we create an object of type Animal and starts off as a non flying objects we can change it’s behavior to fly dynamically. </br>
+We are encapsulating the concept or the behavior that varies (***decoupling***).
 
-<h3>UML Diagram</h3>
+<h2>UML Diagram</h2>
+
 ![img.png](img.png)
 
-We are encapsulating the concept or the behavior that varies (***decoupling***).
 <h2>When to use Strategy Design Pattern</h2>
 <ul>
 <li>When you want to define a class that will have one behavior that is similar to other behaviors in a list; </li>

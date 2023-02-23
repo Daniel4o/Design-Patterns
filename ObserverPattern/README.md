@@ -1,8 +1,9 @@
-<h1>Observer Design Pattern</h1>
+﻿<h1>Observer Design Pattern</h1>
 The Observer Pattern is a software design pattern that is used in “One-To-Many” relationship between objects, in which an object, called the subject, maintains a list of its dependents, called observers, and the subject notifies them automatically of any state changes, usually by calling one of their methods.
-<h3>UML Diagram</h3>
+<h2>UML Diagram</h2>
+
 ![img.png](img.png)
-<h3>When to use the Observer Pattern</h3>
+<h2>When to use the Observer Pattern</h2>
 <ul>
 <li>When you need many other objects to receive an update when another object changes;</li>
 <li>Stock market with thousands of stocks need to send updates to objects representing individual stocks;</li>
