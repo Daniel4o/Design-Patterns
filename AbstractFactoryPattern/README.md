@@ -11,8 +11,9 @@ There are no concrete classes because all of that is abstracted out.
 
 ![img.png](img.png)
 <h2>When to use Factory Pattern</h2>
--	Allows for creating families of related objects without specifying a concrete class;
--	When many you have many objects that can be added or changed dynamically during runtime;
--	You can model anything and have those objects interact through common interfaces.
-
+<ul>
+<li>Allows for creating families of related objects without specifying a concrete class;</li>
+<li>When many you have many objects that can be added or changed dynamically during runtime;</li>
+<li>You can model anything and have those objects interact through common interfaces.</li>
+</ul>
 

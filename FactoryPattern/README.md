@@ -1,4 +1,4 @@
-<h1>Factory Design Pattern</h1>
+﻿<h1>Factory Design Pattern</h1>
 
 Factory Pattern is a creational design pattern that ***provides an interface for creating objects in a superclass***, but ***allows subclasses to alter the type*** of that will be created.
 <h2>Example</h2>
@@ -12,8 +12,10 @@ Factory Pattern is a creational design pattern that ***provides an interface for
 ![img.png](img.png)
 
 <h2>When to use the Factory Pattern</h2>
--	When you don’t know ahead of time what class object you need;
--	When all of the potential classes are in the same subclass hierarchy;
--	To centralize class selection code;
--	When you don’t want the user to have to know every subclass;
--	To encapsulate object creation.
+<ul>
+<li>When you don’t know ahead of time what class object you need;</li>
+<li>When all of the potential classes are in the same subclass hierarchy;</li>
+<li>To centralize class selection code;</li>
+<li>When you don’t want the user to have to know every subclass;</li>
+<li>To encapsulate object creation.</li>
+</ul>
